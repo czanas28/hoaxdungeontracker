@@ -1,0 +1,22 @@
+{
+  "name": "hoax",
+  "version": "1.0.0",
+  "description": "Tracking Dungeons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./discordapp/index.js",
+    "dev": "nodemon ./discordapp/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.12",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5"
+  }
+}
